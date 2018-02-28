@@ -1,8 +1,75 @@
-.main {
-  border-color: pink;
-  border-width: medium;
-  border: solid;
+html {
+  font-size: 18px;
 }
-ul {
-  list-style: none;
+.container {
+  width: 960px;
+  height: 25rem;
+  background-image: url(../../resources/moto.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.logo {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+.logotxt {
+  font-size: 1rem;
+}
+.banner {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  color: white;
+  font-family: Helvetica;
+}
+nav {
+  font-size: 1rem;
+  background-color: black;
+  display: flex;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+.main {
+  font-weight: bold;
+  background-color: black;
+  width: 20rem;
+  height: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 9rem;
+}
+h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+.products {
+  display: flex;
+}
+.indiv {
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+}
+.producttxt {
+  background-color: black;
+}
+.footer {
+  height: 5rem;
+  background-color: black;
 }
