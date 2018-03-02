@@ -5,7 +5,7 @@ html {
   height: 25rem;
   background-image: url(../../resources/moto.jpeg);
   background-size: auto;
-  background-repeat: no-repeat;
+  background-repeat: cover;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -31,6 +31,7 @@ a {
 body {
   color: white;
   font-family: Helvetica;
+  margin: 0;
 }
 nav {
   font-size: 1rem;
