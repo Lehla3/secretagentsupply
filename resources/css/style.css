@@ -114,3 +114,32 @@ h3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+/*Tablet Style*/
+@media only screen and (max-width: 1024px) {
+.product {
+  width: 47%;
+}
+.product:nth-of-type(3) {
+  display: none;
+}
+a {
+  display: none;
+}
+.menubutton {
+  display: block;
+  background-color: firebrick;
+  text-align: center;
+  height: 3rem;
+  width:auto;
+}
+a {
+  color: white;
+  border: 2px solid pink;
+  text-decoration: none;
+}
+.footer {
+  padding-left: 0;
+}
+}
+}
